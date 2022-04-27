@@ -8,7 +8,29 @@
  */
 #include <iostream>
 
+int factorialInt(int x);
+
 int main()
 {
-    std::cout << "Hello World" << std::endl;
+    // Cout is an Object of the Output Stream which returns itself. Thus it can be
+    // chained like below.
+    // This is an example of Object Oriented Programming by representing the
+    // std out as an object.
+    std::cout << factorialInt(5) << std::endl;
+
+    return 0;
+}
+
+/**
+ * @brief This is a recursive function or a feature of the Functional Paradigm
+ *
+ * @param x
+ * @return int
+ */
+int factorialInt(int x)
+{
+    if (x == 1 || x == 0)
+        return 1;
+
+    return (x * factorialInt(x - 1));
 }
