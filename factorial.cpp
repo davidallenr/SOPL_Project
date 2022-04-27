@@ -8,6 +8,12 @@
  */
 #include <iostream>
 
+// This is a recursive function that relies on a typed input and
+// returns the type
+//
+// This process is recursive thus communication relies on the stack
+// and is possible both in the subsequent step and returns the value
+// to the previous step.
 int factorialInt(int x);
 
 int main()

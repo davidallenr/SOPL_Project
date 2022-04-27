@@ -10,6 +10,9 @@
 # Compared to the recursive approach in the C++
 # It relies on the for loop and stack management to
 # compute the factorial of n
+#
+# Communcation is between is step is a one way street
+# as the value for result is changed after each step
 
 
 def factorial(n):
