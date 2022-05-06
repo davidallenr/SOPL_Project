@@ -35,6 +35,12 @@ int main()
  */
 int factorialInt(int x)
 {
+    // CPP Is a statically typed programming language
+    // This means that int he function defintion and protoype
+    // the type must be declared. This is to prevent compliation
+    // errors that would be result from a type mismatch.
+    // You can cast the results from one type to another but the
+    // variable will always be of type that you decared it as.
     if (x == 1 || x == 0)
         return 1;
 

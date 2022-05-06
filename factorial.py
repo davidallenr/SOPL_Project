@@ -16,6 +16,10 @@
 
 
 def factorial(n):
+    # Python is a dynamically typed programming language.
+    # In this example we would be able to change n from an integer to a float
+    # or even a string and return those results without errors during
+    # runtime.
     result = 1
     for i in range(1, n+1):
         result *= i
