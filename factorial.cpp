@@ -22,7 +22,7 @@ int main()
     // chained like below.
     // This is an example of Object Oriented Programming by representing the
     // std out as an object.
-    std::cout << factorialInt(5) << std::endl;
+    std::cout << factorialInt(5) << std::endl; // Change 5 to whatever number you want factorialed
 
     return 0;
 }
